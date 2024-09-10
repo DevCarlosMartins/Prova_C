@@ -17,10 +17,10 @@ float impost (float sal) {
     float t_imp;
 
     if (sal>=5000) {
-        t_imp = sal-(sal*0.20);
+        t_imp = (sal*0.20);
     }
     else if (sal<5000){
-        t_imp = sal-(sal*0.10); 
+        t_imp = (sal*0.10); 
     }
 
     printf("O valor do imposto a ser pago e %.2f", t_imp);
